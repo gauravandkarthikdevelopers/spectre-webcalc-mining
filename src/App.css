@@ -1,0 +1,69 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #6A6565;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.paper {
+  padding: 20px;
+  background: #6A6565;
+  color: #3C0E0E;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: black;
+  margin-bottom: 30px;
+}
+
+.error-text {
+  margin-top: 20px;
+  color: #FF6F6F; /* Light red for error messages */
+}
+
+.results-grid {
+  margin-top: 20px;
+}
+
+.network-card, .rewards-card {
+  border-radius: 12px;
+  background: #fff;
+  color: #3C0E0E;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.MuiButton-containedSecondary {
+  background-color: #FF5722; /* Accent color */
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.MuiButton-containedSecondary:hover {
+  background-color: #E64A19;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.MuiCardHeader-avatar {
+  background-color: #FF5722;
+  color: #fff;
+}
